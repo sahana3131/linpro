@@ -64,5 +64,3 @@ pub enum TransferError {
     #[error("Insufficient balance")]
     InsufficientBalance,
 }
-
-

@@ -76,4 +76,3 @@ pub enum ServiceError {
     InvalidQuery(#[from] serde_json::Error),
     // Add more error variants here.
 }
-
